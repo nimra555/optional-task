@@ -1,0 +1,308 @@
+/* universal tag for margin and padding */
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* styling to header */
+.head{
+    background-color: rgb(66, 46, 201);
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+/* styling to header heading */
+#sim{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: serif;
+}
+/* styling to ul */
+.ul{
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+.ul li{
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 3px;
+}
+.ul ul>li>a{
+    border-right: 1px solid white;
+    margin: 20px 10px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+ul>li:last-child>a{
+    border: none;
+}
+/* styling to p tag */
+#bos{
+    color: rgb(31, 6, 143);
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+/* styling to header a tag */
+.butn1 a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.butn1{
+    margin: 20px 20px;
+}
+/* styling to nav bar */
+.nav{
+    background-color: darkblue;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+/* styling to nav ul li */
+.nav ul li{
+    padding-bottom: 20px;
+    list-style: none;
+    color: rgb(228, 228, 241);
+    display: inline-block;
+    margin-left: 10px;
+    border-right: 1px solid white;
+    padding: 15px;
+}
+#academics{
+    background-color: rgb(55, 55, 230);
+}
+.nav ul li:hover{
+    color: orange;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
+.position{
+    position: absolute;
+    bottom: 200px;
+    left: 700px;
+    z-index: 50;
+    
+    /* border-bottom: 1px solid black;
+    border-top:1px solid black ; */
+}
+.img{
+margin: 10px 25px;
+position: relative;
+}
+/* styling heading */
+#heading{
+    padding-top: 30px;
+    font-family:sans-serif ;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 70px;
+    border-top: 2px solid white;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+/* styling to p tag */
+.black{
+    font-size: 12px;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 2px solid white;
+}
+/* styling to section */
+.text{
+    background-color: green;
+    color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+    height: 50px;
+    margin: 10px 20px;
+}
+
+/* styling to p tag */
+.small{
+    font-size: 12px;
+    color: rgb(73, 67, 67);
+    color: white;
+    padding-top: 10px;   
+}
+/* styling all div */
+.sec2{ 
+    /* width: 75%; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+.div1{
+    width: 300px;
+    height: 150px;
+    background: rgb(161, 148, 148);
+    margin-top: 10px;
+    padding: 10px;
+    width: 25%;
+}
+.div1 h2{
+    color: blue;
+    padding-left: 40px;
+}
+.div1 p{
+    font-size: 12px;
+    color: rgb(73, 67, 67);
+}
+.div2{
+    width: 300px;
+    height: 150px;
+    background: rgb(161, 148, 148);
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    width: 25%;
+}
+.div2 h2{
+    color: blue;
+    padding-left: 40px;
+}
+ .div3{   
+    width: 300px;
+    height: 150px;
+    background: rgb(161, 148, 148);
+    margin-top: 10px;
+    padding: 10px;
+     /* float: right; */
+    width: 25%;
+}
+.div3 h2{
+    color: blue;
+    padding-left: 80px;
+}
+.div2 p{
+    font-size: 12px;
+    color: rgb(73, 67, 67);
+}
+.div3 p{
+    font-size: 12px;
+    color: rgb(73, 67, 67);
+}
+/* styling new section */
+.second{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+.sec{
+    background-color: purple;
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.second-sec1{
+    background-color: rgb(29, 174, 223);
+    width: 300px;
+    height: 150px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+   
+}
+.secondp{
+    color: #666666;
+    padding: 10px;
+    margin-top: -10px;
+    display: block;
+}
+.p1{
+    border:1px solid rgb(189, 176, 176);
+    background-color: rgb(236, 227, 227);
+    /* width: 50px; */
+    padding: 5px;
+    margin: 10px 0 10px 20px;
+    color: green;
+    display: block;
+    width: 30px;
+}
+.numbr{
+    font-size: 20px;
+}
+.blue{
+    font-size: 14px;
+    color: rgb(34, 34, 182);
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.butn{
+    margin: 30px 30px 30px 20px ; 
+}
+.butn a{
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 15px;
+    margin-left:20px ;
+    text-transform:uppercase ;
+    border-radius: 10px;
+}
+.last-ul{
+    background-color: rgb(34, 29, 29);
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #666666;
+    list-style: none;
+    display: flex;
+    height: 400px;
+}
+.white{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.last-ul>ul>li{
+    list-style: none;
+}
+.last-ul1>ul>li{
+    list-style: none;
+    /* width: 23%; */
+}
+.last-ul1{
+    width: 23%;
+}
+.last-ul3>ul>li{
+    /* width: 23%; */
+    list-style: none;
+}
+.last-ul3{
+    width: 23%;
+}
+.last-ul5{
+width: 23%;
+}
+.last-ul5>ul>li{
+    list-style: none;
+}
+.last-ul6{
+    width: 23%;
+}
+.last-sec{
+    background-color:rgb(34, 29, 29) ;
+    border-top: 1px solid white;
+    padding: 10px 0 10px 10px;
+    height: 200px;
+}
+.last-sec p{
+    text-align:right;
+    margin-right: 50px;
+}
